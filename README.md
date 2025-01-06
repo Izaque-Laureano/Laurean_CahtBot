@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <header>
-	<link rel="stylesheet" type="text/css" href="/style.css">
+	<title>Laurean ChatBot 🤖 </title>
 	
 </header>
 <body>
