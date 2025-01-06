@@ -7,30 +7,26 @@
 	</div>
 </header>
 <body>
-	<h1>🤖Laurean Chatbot</h1>
+	<h1>🤖Laurean Chatbot </h1>
 	<p>Um chatbot interativo criado com Python, utilizando tecnologias modernas como LangChain, LangGraph, e a API Groq, com o objetivo de responder perguntas, aprender com interações e armazenar informações relevantes. 🚀</p>
 	<div class="chatbot">
 		<img src="GIF-chatbot.gif" alt="GIF animado">
 	</div>
-	<h2> 💬Funcionalidades </h2>
+	<h2>💬Funcionalidades</h2>
 	<ul>
 		<li>Respostas precisas baseadas em inteligência artificial.</li>
 		<li>Aprendizado contínuo com base nas interações dos usuários.</li>
 		<li>Armazenamento inteligente de dados em um banco vetorial via Docker.</li>
 		<li>Interface amigável desenvolvida em Streamlit.</li>
 	</ul>
-	
 	<h2>🛠️Tecnologias Utilizadas</h2>
 	<ul>
-		<li><strong>🖥️Python 3.9+</strong></li>
-        	<li><strong>🛠️ Streamlit</strong> para a interface do usuário</li>
-        	<li><strong>🛠️ LangChain</strong> para orquestração de agentes e modelos de linguagem</li>
-        	<li><strong>🛠️ LangGraph</strong> para integração com gráficos de conhecimento</li>
-        	<li><strong>🤖 GROQ</strong> para utilizar o modelo de linguagem 'llama-3.3-70b-versatile'</li>
-        	<li><strong>📂 SQLite</strong> para armazenamento de dados de aprendizado</li>
-        	<li><strong>📂 Docker</strong> para containerização do ambiente</li>
+		<li>🖥️ Linguagem: Python</li>
+		<li>🛠️ Frameworks e Bibliotecas: Streamlit, LangChain, LangGraph</li>
+		<li>📂 Banco de Dados: SQLite e base vetorial em contêiner Docker</li>
+		<li>🤖 Modelo de Linguagem: API da Groq</li>
 	</ul>
- 	<h2>📄Instruções de Instalação</h2>
+	<h2>📄Instruções de Instalação</h2>
 	<ol>
 		<li>Clone o repositório:
 			<code>git clone https://github.com/usuario/chatbot_project.git</code>
