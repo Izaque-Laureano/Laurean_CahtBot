@@ -7,7 +7,7 @@
 	</div>
 </header>
 <body>
-	<h1>🤖Chatbot Interativo</h1>
+	<h1>🤖Laurean Chatbot</h1>
 	<p>Um chatbot interativo criado com Python, utilizando tecnologias modernas como LangChain, LangGraph, e a API Groq. O objetivo é responder perguntas, aprender com interações e armazenar informações relevantes. 🚀</p>
 	<div class="chatbot">
 		<img src="GIF-chatbot.gif" alt="GIF animado">
@@ -59,7 +59,7 @@
 	<h2>🕹️Exemplo de Uso</h2>
 	<ol>
 		<li>Inicie a aplicação e faça uma pergunta no campo de texto.</li>
-		<li>Receba uma resposta do chatbot baseada na inteligência artificial.</li>
+		<li>Receba uma resposta do Laurean ChatBot baseada na inteligência artificial.</li>
 		<li>Interaja com o chatbot para verificar o aprendizado contínuo.</li>
 	</ol>
 	<h2>🛠️Tecnologias Utilizadas</h2>
@@ -71,12 +71,6 @@
 	</ul>
 	<h2>📜Configurações Importantes</h2>
 	<p>Certifique-se de que o Docker está configurado para suportar contêineres com bases de dados vetoriais.</p>
-	<h2>🎞️Créditos</h2>
-	<ul>
-		<li>👨‍💻 Desenvolvedor: [Seu Nome]</li>
-		<li>🎨 Recursos Gráficos: Não aplicável</li>
-	</ul>
-	<h2>📜Licença</h2>
-	<p>Este projeto está sob a licença <a href="https://opensource.org/licenses/MIT">MIT</a>.</p>
+	
 </body>
 </html>
