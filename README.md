@@ -7,24 +7,17 @@
 	</div>
 </header>
 <body>
-	<h1>🤖Laurean Chatbot</h1>
-	<p>Um chatbot interativo criado com Python, utilizando tecnologias modernas como LangChain, LangGraph, e a API Groq, com o objetivo de responder perguntas, aprender com interações e armazenar informações relevantes. 🚀</p>
+	<h1>🤖Chatbot Interativo</h1>
+	<p>Um chatbot interativo criado com Python, utilizando tecnologias modernas como LangChain, LangGraph, e a API Groq. O objetivo é responder perguntas, aprender com interações e armazenar informações relevantes. 🚀</p>
 	<div class="chatbot">
 		<img src="GIF-chatbot.gif" alt="GIF animado">
 	</div>
-	<h2>💬Funcionalidades</h2>
+	<h2>🛠️Pré-requisitos</h2>
 	<ul>
-		<li>Respostas precisas baseadas em inteligência artificial.</li>
-		<li>Aprendizado contínuo com base nas interações dos usuários.</li>
-		<li>Armazenamento inteligente de dados em um banco vetorial via Docker.</li>
-		<li>Interface amigável desenvolvida em Streamlit.</li>
-	</ul>
-	<h2>🛠️Tecnologias Utilizadas</h2>
-	<ul>
-		<li>🖥️ Linguagem: Python</li>
-		<li>🛠️ Frameworks e Bibliotecas: Streamlit, LangChain, LangGraph</li>
-		<li>📂 Banco de Dados: SQLite e base vetorial em contêiner Docker</li>
-		<li>🤖 Modelo de Linguagem: API da Groq</li>
+		<li>🐍 Python 3.8 ou superior instalado (<a href="https://www.python.org/downloads/" target="_blank">Baixar Python</a>).</li>
+		<li>🐋 Docker Desktop instalado (<a href="https://www.docker.com/products/docker-desktop" target="_blank">Baixar Docker</a>).</li>
+		<li>📦 Git instalado (<a href="https://git-scm.com/downloads" target="_blank">Baixar Git</a>).</li>
+		<li>🖥️ Conexão com a internet para baixar dependências e acessar a API Groq.</li>
 	</ul>
 	<h2>📄Instruções de Instalação</h2>
 	<ol>
@@ -34,10 +27,23 @@
 		<li>Entre no diretório do projeto:
 			<code>cd chatbot_project</code>
 		</li>
+		<li>Crie um ambiente virtual:
+			<code>python -m venv venv</code>
+		</li>
+		<li>Ative o ambiente virtual:
+			<ul>
+				<li>Windows:
+					<code>venv\Scripts\activate</code>
+				</li>
+				<li>Linux/Mac:
+					<code>source venv/bin/activate</code>
+				</li>
+			</ul>
+		</li>
 		<li>Instale as dependências:
 			<code>pip install -r requirements.txt</code>
 		</li>
-		<li>Configure o arquivo `.env` com os seguintes valores:
+		<li>Configure o arquivo `.env` com as credenciais da API Groq:
 			<code>
 				api_base=https://api.groq.com/openai/v1<br>
 				api_key=sua_chave_api
@@ -50,8 +56,27 @@
 			<a href="http://localhost:8501" target="_blank">http://localhost:8501</a>
 		</li>
 	</ol>
+	<h2>🕹️Exemplo de Uso</h2>
+	<ol>
+		<li>Inicie a aplicação e faça uma pergunta no campo de texto.</li>
+		<li>Receba uma resposta do chatbot baseada na inteligência artificial.</li>
+		<li>Interaja com o chatbot para verificar o aprendizado contínuo.</li>
+	</ol>
+	<h2>🛠️Tecnologias Utilizadas</h2>
+	<ul>
+		<li>🖥️ Linguagem: Python</li>
+		<li>📚 Frameworks e Bibliotecas: Streamlit, LangChain, LangGraph</li>
+		<li>📂 Banco de Dados: SQLite e base vetorial em contêiner Docker</li>
+		<li>🤖 Modelo de Linguagem: API da Groq</li>
+	</ul>
 	<h2>📜Configurações Importantes</h2>
 	<p>Certifique-se de que o Docker está configurado para suportar contêineres com bases de dados vetoriais.</p>
-	
+	<h2>🎞️Créditos</h2>
+	<ul>
+		<li>👨‍💻 Desenvolvedor: [Seu Nome]</li>
+		<li>🎨 Recursos Gráficos: Não aplicável</li>
+	</ul>
+	<h2>📜Licença</h2>
+	<p>Este projeto está sob a licença <a href="https://opensource.org/licenses/MIT">MIT</a>.</p>
 </body>
 </html>
