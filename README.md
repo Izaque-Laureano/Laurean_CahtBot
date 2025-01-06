@@ -32,13 +32,6 @@
         	<li><strong>📂 Docker</strong> para containerização do ambiente</li>
 	</ul>
  
- 	<h2>Pré-requisitos</h2>
-    		<p>Antes de executar o projeto, certifique-se de ter os seguintes itens instalados:</p>
-    	<ul>
-        	<li><a href="https://www.python.org/downloads/">Python 3.9+</a></li>
-        	<li><a href="https://www.docker.com/products/docker-desktop">Docker</a></li>
-        	<li><a href="https://git-scm.com/downloads">Git</a></li>
-    	</ul>
 	<h2>📄Instruções de Instalação</h2>
 	<ol>
 		<li>Clone o repositório:
