@@ -26,13 +26,7 @@
 		<li>🛠️ Frameworks e Bibliotecas: Streamlit, LangChain, LangGraph</li>
 		<li>📂 Banco de Dados: SQLite e base vetorial em contêiner Docker</li>
 		<li>🤖 Modelo de Linguagem: API da Groq</li>
-  		<li><strong>🖥️ Python 3.9+</strong></li>
-        	<li><strong>🛠️ Streamlit</strong> para a interface do usuário</li>
-        	<li><strong>🛠️ LangChain</strong> para orquestração de agentes e modelos de linguagem</li>
-        	<li><strong>🛠️ LangGraph</strong> para integração com gráficos de conhecimento</li>
-	        <li><strong>🤖 GROQ</strong> para utilizar o modelo de linguagem 'llama-3.3-70b-versatile'</li>
-	        <li><strong>📂 SQLite</strong> para armazenamento de dados de aprendizado</li>
-        	<li><strong>📂 Docker</strong> para containerização do ambiente</li>
+  		
 	</ul>
 	<h2>📄Instruções de Instalação</h2>
 	<ol>
