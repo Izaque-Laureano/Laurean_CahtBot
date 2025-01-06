@@ -22,7 +22,6 @@
 	
 	<h2>🛠️Tecnologias Utilizadas</h2>
 	<ul>
-	
 		<li><strong>🖥️Python 3.9+</strong></li>
         	<li><strong>🛠️ Streamlit</strong> para a interface do usuário</li>
         	<li><strong>🛠️ LangChain</strong> para orquestração de agentes e modelos de linguagem</li>
@@ -31,8 +30,7 @@
         	<li><strong>📂 SQLite</strong> para armazenamento de dados de aprendizado</li>
         	<li><strong>📂 Docker</strong> para containerização do ambiente</li>
 	</ul>
- 
-	<h2>📄Instruções de Instalação</h2>
+ 	<h2>📄Instruções de Instalação</h2>
 	<ol>
 		<li>Clone o repositório:
 			<code>git clone https://github.com/usuario/chatbot_project.git</code>
