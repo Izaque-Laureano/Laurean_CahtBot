@@ -2,79 +2,37 @@
 <!DOCTYPE html>
 <html>
 <header>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laurean Chatbot Interativo com Python 🤖💬</title>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<div classname = "Titulo">
+  	<img src="Gif-Titulo.gif" alt="GIF animado">
+	</div>
+
 </header>
 <body>
-
-    <h1>Laurean Chatbot Interativo com Python 🤖💬</h1>
-
-    <p>Bem-vindo ao projeto do Laurean Chatbot! Este chatbot é construído com Python e utiliza a API da Groq, Streamlit, LangChain e LangGraph para proporcionar uma experiência interativa única. O chatbot aprende com cada interação e armazena informações de forma eficiente em um banco de dados vetorial. 🚀</p>
-
-    <h2>📦 Instalação</h2>
-    <p>Para rodar este projeto localmente, siga os passos abaixo:</p>
-    
-    <h3>1. Clonando o Repositório 🔽</h3>
-    
- 
-    git clone https://github.com/usuario/chatbot_project.git
-    cd chatbot_project
-    
-
-    <h3>2. Instalando as Dependências 🛠️</h3>
-    <p>O projeto utiliza algumas bibliotecas. Instale todas as dependências executando:</p>
-    
-    pip install -r requirements.txt
-    
-
-    <h3>3. Executando o Projeto 🚀</h3>
-    <p>Após a instalação das dependências, execute o seguinte comando para rodar o chatbot em seu computador:</p>
-   
-    docker run -d -p 8501:8501 --name chatbot_container chatbot_project
-   
-    <p>Isso irá rodar o chatbot em um contêiner Docker, acessível via <a href="http://localhost:8501" target="_blank">http://localhost:8501</a>. 🖥️</p>
-
-    <h2>💬 Exemplo de Uso</h2>
-    <p>Após rodar o projeto, acesse a interface do chatbot em <a href="http://localhost:8501" target="_blank">http://localhost:8501</a> e comece a interagir com ele! Você pode fazer perguntas e o chatbot irá aprender com suas respostas. 🤓</p>
-
-    <h2>⚙️ Configurações Necessárias</h2>
-    <ul>
-        <li>Certifique-se de que o Docker está configurado corretamente em sua máquina. 🐳</li>
-        <li>Configure a chave da API da Groq no código. 🔑</li>
-        <li>O banco de dados vetorial precisa estar configurado com Docker. 💾</li>
-    </ul>
-
-    <h2>📝 Git Ignore</h2>
-    <p>Crie um arquivo <code>.gitignore</code> para evitar o versionamento de arquivos desnecessários, como ambientes virtuais e arquivos temporários:</p>
-    
-    # Ignorar arquivos Python compilados
-    *.pyc
-    *.pyo
-    *.pyd
-    __pycache__/
-
-    # Ignorar ambiente virtual
-    venv/
-    env/
-
-    # Ignorar arquivos de log
-    *.log
-
-    # Ignorar banco de dados SQLite
-    *.db
-    *.sqlite3
-
-    # Ignorar arquivos de configuração da IDE
-    .vscode/
-    .idea/
-    
-
-    <h2>👨‍💻 Contribuindo</h2>
-    <p>Se você deseja contribuir para o projeto, fique à vontade para abrir issues ou pull requests. Juntos podemos melhorar ainda mais este chatbot! 💡</p>
-
-    <h2>📄 Licença</h2>
-    <p>Este projeto é licenciado sob a MIT License - veja o arquivo <a href="LICENSE" target="_blank">LICENSE</a> para mais detalhes. 📃</p>
-
+	<h1>🎈Balão Voador</h1>
+	<p>Um jogo educativo para crianças da 3° infância, desenvolvido para Android e IOS com o intuito de desenvolver o cognitivo das crianças. A jogabilidade consiste em estourar balões que surgem da parte inferior da tela do celular e contém números que indicam a quantidade de pontos que cada balão vale.</p>
+	<div classname = "jogo">
+	<img src="GIF-jogo.gif" alt="GIF animado">
+	</div>
+	<h2>🕹Jogabilidade</h2>
+	<p>O jogador deve estourar balões para acumular pontos. Cada balão contém um número que indica a quantidade de pontos que ele vale. Quando o jogador atinge a quantidade de pontos necessária para a fase, ele passa para a próxima fase. Se o jogador acumular mais pontos do que o necessário, ele perde e precisa recomeçar a fase.</p>
+	<h2>🎪Temática</h2>
+	<p>O jogo tem uma temática de parque de diversões, com o objetivo de deixar as crianças familiarizadas com as cores.</p>
+	<h2>💻Linguagem de Programação</h2>
+	<p>O jogo foi desenvolvido utilizando a linguagem C#.</p>
+	<h2>📄Instruções de instalação</h2>
+	<li>Abra o Unity Editor e crie um novo projeto</li>
+		<li>Importe os arquivos deste projeto na Unity</li>
+		<li>Certifique-se de que todos os pacotes e recursos necessários estejam instalados</li>
+		<li>Clique em "Executar" para iniciar a aplicação no ambiente Unity</li>
+	</ol>
+	<h2>🎞Créditos</h2>
+	<ul>
+		<li>Desenvolvedor: [Izaque Laureano]</li>
+		<li>🎶Recursos de áudio: [Áudios públicos]</li>
+		<li>🎨Recursos gráficos: [Elementos gráficos públicos e alguns originais]</li>
+	</ul>
+	<h2>📜Licença</h2>
+	<p>Este projeto está sob a licença <a href="https://opensource.org/licenses/MIT">MIT</a>.</p>
 </body>
 </html>
