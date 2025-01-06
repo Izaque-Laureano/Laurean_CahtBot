@@ -16,28 +16,23 @@
     <p>Para rodar este projeto localmente, siga os passos abaixo:</p>
     
     <h3>1. Clonando o Repositório 🔽</h3>
-    <pre>
-    <code>
+    
+ 
     git clone https://github.com/usuario/chatbot_project.git
     cd chatbot_project
-    </code>
-    </pre>
+    
 
     <h3>2. Instalando as Dependências 🛠️</h3>
     <p>O projeto utiliza algumas bibliotecas. Instale todas as dependências executando:</p>
-    <pre>
-    <code>
+    
     pip install -r requirements.txt
-    </code>
-    </pre>
+    
 
     <h3>3. Executando o Projeto 🚀</h3>
     <p>Após a instalação das dependências, execute o seguinte comando para rodar o chatbot em seu computador:</p>
-    <pre>
-    <code>
+   
     docker run -d -p 8501:8501 --name chatbot_container chatbot_project
-    </code>
-    </pre>
+   
     <p>Isso irá rodar o chatbot em um contêiner Docker, acessível via <a href="http://localhost:8501" target="_blank">http://localhost:8501</a>. 🖥️</p>
 
     <h2>💬 Exemplo de Uso</h2>
@@ -52,8 +47,7 @@
 
     <h2>📝 Git Ignore</h2>
     <p>Crie um arquivo <code>.gitignore</code> para evitar o versionamento de arquivos desnecessários, como ambientes virtuais e arquivos temporários:</p>
-    <pre>
-    <code>
+    
     # Ignorar arquivos Python compilados
     *.pyc
     *.pyo
@@ -74,8 +68,7 @@
     # Ignorar arquivos de configuração da IDE
     .vscode/
     .idea/
-    </code>
-    </pre>
+    
 
     <h2>👨‍💻 Contribuindo</h2>
     <p>Se você deseja contribuir para o projeto, fique à vontade para abrir issues ou pull requests. Juntos podemos melhorar ainda mais este chatbot! 💡</p>
