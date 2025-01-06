@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <header>
-	<title>Laurean ChatBot 🤖 </title>
-	
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<div class="Titulo">
+		<img src="Gif-Titulo.gif" alt="GIF animado">
+	</div>
 </header>
 <body>
 	<h1>🤖Chatbot Interativo</h1>
 	<p>Um chatbot interativo criado com Python, utilizando tecnologias modernas como LangChain, LangGraph, e a API Groq, com o objetivo de responder perguntas, aprender com interações e armazenar informações relevantes. 🚀</p>
-	
+	<div class="chatbot">
+		<img src="GIF-chatbot.gif" alt="GIF animado">
+	</div>
 	<h2>💬Funcionalidades</h2>
 	<ul>
 		<li>Respostas precisas baseadas em inteligência artificial.</li>
