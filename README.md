@@ -7,7 +7,7 @@
 	</div>
 </header>
 <body>
-	<h1>🤖Chatbot Interativo</h1>
+	<h1>🤖Laurean Chatbot</h1>
 	<p>Um chatbot interativo criado com Python, utilizando tecnologias modernas como LangChain, LangGraph, e a API Groq, com o objetivo de responder perguntas, aprender com interações e armazenar informações relevantes. 🚀</p>
 	<div class="chatbot">
 		<img src="GIF-chatbot.gif" alt="GIF animado">
