@@ -1,15 +1,16 @@
+#
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<html>
+<header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot Interativo com Python 🤖💬</title>
-</head>
+    <title>Laurean Chatbot Interativo com Python 🤖💬</title>
+</header>
 <body>
 
-    <h1>Chatbot Interativo com Python 🤖💬</h1>
+    <h1>Laurean Chatbot Interativo com Python 🤖💬</h1>
 
-    <p>Bem-vindo ao projeto do Chatbot Interativo! Este chatbot é construído com Python e utiliza a API da Groq, Streamlit, LangChain e LangGraph para proporcionar uma experiência interativa única. O chatbot aprende com cada interação e armazena informações de forma eficiente em um banco de dados vetorial. 🚀</p>
+    <p>Bem-vindo ao projeto do Laurean Chatbot! Este chatbot é construído com Python e utiliza a API da Groq, Streamlit, LangChain e LangGraph para proporcionar uma experiência interativa única. O chatbot aprende com cada interação e armazena informações de forma eficiente em um banco de dados vetorial. 🚀</p>
 
     <h2>📦 Instalação</h2>
     <p>Para rodar este projeto localmente, siga os passos abaixo:</p>
