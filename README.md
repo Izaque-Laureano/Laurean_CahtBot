@@ -22,10 +22,10 @@
 	<h2>📄Instruções de Instalação</h2>
 	<ol>
 		<li>Clone o repositório:
-			<code>git clone https://github.com/usuario/chatbot_project.git</code>
+			<code>git clone https://github.com/Izaque-Laureano/Laurean_CahtBot.git</code>
 		</li>
 		<li>Entre no diretório do projeto:
-			<code>cd chatbot_project</code>
+			<code>cd Laurean_CahtBot</code>
 		</li>
 		<li>Crie um ambiente virtual:
 			<code>python -m venv venv</code>
