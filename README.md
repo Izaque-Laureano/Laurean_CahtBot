@@ -21,10 +21,7 @@
 	</ul>
 	<h2>🛠️Tecnologias Utilizadas</h2>
 	<ul>
-		<li>🖥️ Linguagem: Python</li>
-		<li>🛠️ Frameworks e Bibliotecas: Streamlit, LangChain, LangGraph</li>
-		<li>📂 Banco de Dados: SQLite e base vetorial em contêiner Docker</li>
-		<li>🤖 Modelo de Linguagem: API da Groq</li>
+	
 		<li><strong>🖥️Python 3.9+</strong></li>
         	<li><strong>🛠️ Streamlit</strong> para a interface do usuário</li>
         	<li><strong>🛠️ LangChain</strong> para orquestração de agentes e modelos de linguagem</li>
@@ -33,6 +30,13 @@
         	<li><strong>📂 SQLite</strong> para armazenamento de dados de aprendizado</li>
         	<li><strong>📂 Docker</strong> para containerização do ambiente</li>
 	</ul>
+ 	<h2>Pré-requisitos</h2>
+    		<p>Antes de executar o projeto, certifique-se de ter os seguintes itens instalados:</p>
+    	<ul>
+        	<li><a href="https://www.python.org/downloads/">Python 3.9+</a></li>
+        	<li><a href="https://www.docker.com/products/docker-desktop">Docker</a></li>
+        	<li><a href="https://git-scm.com/downloads">Git</a></li>
+    	</ul>
 	<h2>📄Instruções de Instalação</h2>
 	<ol>
 		<li>Clone o repositório:
