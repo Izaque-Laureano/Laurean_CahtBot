@@ -2,65 +2,62 @@
 <html>
 <header>
 	<link rel="stylesheet" type="text/css" href="/style.css">
-	<div class="Titulo">
-		<img src="Gif-Titulo.gif" alt="GIF animado">
-	</div>
+	
 </header>
 <body>
-	<h1>🤖Chatbot Interativo</h1>
-	<p>Um chatbot interativo construído com Python, utilizando tecnologias como LangChain, LangGraph e a API da Groq. Este projeto permite ao chatbot aprender com as interações dos usuários e armazenar informações de forma eficiente em um banco de dados vetorial. 🚀</p>
-	<div class="chatbot">
-		<img src="GIF-chatbot.gif" alt="GIF animado">
-	</div>
+	<h1>🤖 Laurean Chatbot</h1>
+	<p>Um chatbot interativo criado com Python, utilizando tecnologias modernas como LangChain, LangGraph, e a API Groq, com o objetivo de responder perguntas, aprender com interações e armazenar informações relevantes. 🚀</p>
+	
 	<h2>💬Funcionalidades</h2>
-	<p>O chatbot oferece:</p>
 	<ul>
-		<li>Respostas precisas e adaptáveis às perguntas do usuário.</li>
-		<li>Aprendizado contínuo com base nas interações.</li>
-		<li>Interface intuitiva construída com Streamlit.</li>
-		<li>Armazenamento de informações relevantes em um banco de dados vetorial.</li>
+		<li>Respostas precisas baseadas em inteligência artificial.</li>
+		<li>Aprendizado contínuo com base nas interações dos usuários.</li>
+		<li>Armazenamento inteligente de dados em um banco vetorial via Docker.</li>
+		<li>Interface amigável desenvolvida em Streamlit.</li>
 	</ul>
 	<h2>🛠️Tecnologias Utilizadas</h2>
-	<p>O projeto utiliza:</p>
 	<ul>
-		<li>Linguagem: Python 🐍</li>
-		<li>Frameworks: Streamlit, LangChain e LangGraph</li>
-		<li>Banco de Dados: SQLite (local) e base vetorial em contêiner Docker</li>
-		<li>Modelo de Linguagem: API da Groq</li>
+		<li>🖥️ Linguagem: Python</li>
+		<li>🛠️ Frameworks e Bibliotecas: Streamlit, LangChain, LangGraph</li>
+		<li>📂 Banco de Dados: SQLite e base vetorial em contêiner Docker</li>
+		<li>🤖 Modelo de Linguagem: API da Groq</li>
 	</ul>
 	<h2>📄Instruções de Instalação</h2>
 	<ol>
-		<li>Clone este repositório com o comando:
+		<li>Clone o repositório:
 			<pre>
 				<code>git clone https://github.com/usuario/chatbot_project.git</code>
 			</pre>
 		</li>
-		<li>Entre na pasta do projeto:
+		<li>Entre no diretório do projeto:
 			<pre>
 				<code>cd chatbot_project</code>
 			</pre>
 		</li>
-		<li>Instale as dependências necessárias:
+		<li>Instale as dependências:
 			<pre>
 				<code>pip install -r requirements.txt</code>
 			</pre>
 		</li>
-		<li>Certifique-se de que o Docker está instalado e rodando. Em seguida, execute:
+		<li>Configure o arquivo `.env` com os seguintes valores:
+			<pre>
+				<code>
+					api_base=https://api.groq.com/openai/v1
+					api_key=sua_chave_api
+				</code>
+			</pre>
+		</li>
+		<li>Certifique-se de que o Docker está rodando e execute o contêiner:
 			<pre>
 				<code>docker run -d -p 8501:8501 --name chatbot_container chatbot_project</code>
 			</pre>
 		</li>
-		<li>Acesse o chatbot no navegador em:
+		<li>Acesse o chatbot em:
 			<a href="http://localhost:8501" target="_blank">http://localhost:8501</a>
 		</li>
 	</ol>
-	<h2>🎞Créditos</h2>
-	<ul>
-		<li>Desenvolvedor: [Seu Nome]</li>
-		<li>🎶Recursos de áudio: [Inserir se aplicável]</li>
-		<li>🎨Recursos gráficos: [Inserir se aplicável]</li>
-	</ul>
-	<h2>📜Licença</h2>
-	<p>Este projeto está sob a licença <a href="https://opensource.org/licenses/MIT">MIT</a>.</p>
+	<h2>📜Configurações Importantes</h2>
+	<p>Certifique-se de que o Docker está configurado para suportar contêineres com bases de dados vetoriais.</p>
+	
 </body>
 </html>
