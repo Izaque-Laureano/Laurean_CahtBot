@@ -7,7 +7,7 @@
 	</div>
 </header>
 <body>
-	<h1>🤖Laurean Chatbot </h1>
+	<h1>🤖Laurean Chatbot</h1>
 	<p>Um chatbot interativo criado com Python, utilizando tecnologias modernas como LangChain, LangGraph, e a API Groq, com o objetivo de responder perguntas, aprender com interações e armazenar informações relevantes. 🚀</p>
 	<div class="chatbot">
 		<img src="GIF-chatbot.gif" alt="GIF animado">
@@ -18,7 +18,6 @@
 		<li>Aprendizado contínuo com base nas interações dos usuários.</li>
 		<li>Armazenamento inteligente de dados em um banco vetorial via Docker.</li>
 		<li>Interface amigável desenvolvida em Streamlit.</li>
-		
 	</ul>
 	<h2>🛠️Tecnologias Utilizadas</h2>
 	<ul>
@@ -26,7 +25,6 @@
 		<li>🛠️ Frameworks e Bibliotecas: Streamlit, LangChain, LangGraph</li>
 		<li>📂 Banco de Dados: SQLite e base vetorial em contêiner Docker</li>
 		<li>🤖 Modelo de Linguagem: API da Groq</li>
-  		
 	</ul>
 	<h2>📄Instruções de Instalação</h2>
 	<ol>
