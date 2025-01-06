@@ -52,13 +52,6 @@
 	</ol>
 	<h2>📜Configurações Importantes</h2>
 	<p>Certifique-se de que o Docker está configurado para suportar contêineres com bases de dados vetoriais.</p>
-	<h2>🎞Créditos</h2>
-	<ul>
-		<li>Desenvolvedor: [Seu Nome]</li>
-		<li>🎶Recursos de áudio: Não aplicável</li>
-		<li>🎨Recursos gráficos: Não aplicável</li>
-	</ul>
-	<h2>📜Licença</h2>
-	<p>Este projeto está sob a licença <a href="https://opensource.org/licenses/MIT">MIT</a>.</p>
+	
 </body>
 </html>
