@@ -12,13 +12,14 @@
 	<div class="chatbot">
 		<img src="GIF-chatbot.gif" alt="GIF animado">
 	</div>
-	<h2>💬Funcionalidades</h2>
+	<h2> 💬Funcionalidades </h2>
 	<ul>
 		<li>Respostas precisas baseadas em inteligência artificial.</li>
 		<li>Aprendizado contínuo com base nas interações dos usuários.</li>
 		<li>Armazenamento inteligente de dados em um banco vetorial via Docker.</li>
 		<li>Interface amigável desenvolvida em Streamlit.</li>
 	</ul>
+	
 	<h2>🛠️Tecnologias Utilizadas</h2>
 	<ul>
 	
