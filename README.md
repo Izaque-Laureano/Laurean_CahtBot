@@ -30,6 +30,7 @@
         	<li><strong>📂 SQLite</strong> para armazenamento de dados de aprendizado</li>
         	<li><strong>📂 Docker</strong> para containerização do ambiente</li>
 	</ul>
+ 
  	<h2>Pré-requisitos</h2>
     		<p>Antes de executar o projeto, certifique-se de ter os seguintes itens instalados:</p>
     	<ul>
