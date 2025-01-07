@@ -46,6 +46,7 @@
 				api_base=https://api.groq.com/openai/v1<br>
 				api_key=sua_chave_api
 			</code>
+   		</li>
 		<li>
 		Baixe a imagem docker com o nome chatbot_project:
 			<code>docker build -t chatbot_project . </code>
