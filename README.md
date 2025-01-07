@@ -40,9 +40,7 @@
 				</li>
 			</ul>
 		</li>
-		<li>Instale as dependências:
-			<code>pip install -r requirements.txt</code>
-		</li>
+		
 		<li>Configure o arquivo .env com as credenciais da API Groq:
 			<pre>
 api_base=https://api.groq.com/openai/v1
