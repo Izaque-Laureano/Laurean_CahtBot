@@ -50,7 +50,7 @@
 			</code>
 		<li>
 		Baixe a imagem docker com o nome chatbot_project:
-			docker build -t chatbot_project .
+			<code>docker build -t chatbot_project . </code>
 		</li>
 		</li>
 		<li>Certifique-se de que o Docker está rodando e execute o contêiner:
